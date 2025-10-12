@@ -15,5 +15,5 @@ Openbox script collection for Debian 13 at ASUS X553M
 - Drives: SSD 120 GB
 
 # install
-- Install git: apt install git
-- Clone or download this project: git clone https://github.com/epiornis/debian-openbox
+- install git: sudo apt install git
+- download this project: git clone https://github.com/epiornis/debian-openbox
