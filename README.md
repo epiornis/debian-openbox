@@ -1,7 +1,7 @@
 # debian-openbox
 Openbox script collection for Debian 13 at ASUS X553M
 
-# hardware
+## hardware
 - ASUS X553MA
 - CPU: Intel Celeron N2840 64Bit
 - GPU: Intel Atom Processor Z3700 Series
@@ -14,6 +14,6 @@ Openbox script collection for Debian 13 at ASUS X553M
 - Resolution: 1366 x 768 (HD)
 - Drives: SSD 120 GB
 
-# install
-- install git: sudo apt install git
-- download this project: git clone https://github.com/epiornis/debian-openbox
+## install
+* install git: `sudo apt install git`
+* download this project: `git clone https://github.com/epiornis/debian-openbox`
