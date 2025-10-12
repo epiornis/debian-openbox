@@ -7,7 +7,7 @@ Openbox script collection for Debian 13 at ASUS X553M
 - GPU: Intel Atom Processor Z3700 Series
 - RAM: 8 GB
 - Network:
-- - Realtek RTL810xE PCI Express
+  - Realtek RTL810xE PCI Express
   - Broadcom BCM43142 802.11b/g/n
 - Bluetooth: Lite-On Broadcom BCM43142A0
 - Screen Size: 15,6"
