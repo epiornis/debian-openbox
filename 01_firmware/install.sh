@@ -27,7 +27,6 @@ apt install -y linux-image-${KERNEL_VERSION} linux-headers-${KERNEL_VERSION} bro
     echo "BŁĄD: Instalacja sterowników WiFi" >&2
     exit 1
 }
-# apt install -y linux-image-$(uname -r) linux-headers-$(uname -r) broadcom-sta-dkms
 
 echo "Usuwanie konfliktujących modułów..."
 modprobe -r b44 b43 b43legacy ssb brcmsmac bcma 2>/dev/null || true
@@ -66,13 +65,13 @@ else
     chmod 644 "${FIRMWARE_DEST}"*.hcd
     chown root:root "${FIRMWARE_DEST}"*.hcd
     
-    echo -e "Firmware Bluetooth zainstalowany pomyślnie"
+    echo "Firmware Bluetooth zainstalowany pomyślnie"
 fi
 
 ## --- potencjalny restart systemu ---
 read -p "Wymagany jest restart systemu. Czy chcesz teraz zrestartować system? (t/N): " -n 1 -r
 echo
 if [[ $REPLY =~ ^[TtYy]$ ]]; then
-    echo "Restartowanie systemu..."
+    echo "Ponowne uruchamianie systemu..."
     reboot
 fi
