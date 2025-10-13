@@ -24,7 +24,7 @@ echo "=== Instalator X553M Debian Openbox ==="
 echo
 
 # Wyszukanie podkatalogów w kolejności rosnącej
-SUBDIRS=$(find . -maxdepth 1 -type d -name '[0-9][0-9]_*/' | sort)
+SUBDIRS=$(ls -d [0-9][0-9]_*/ 2>/dev/null | sort)
 
 if [ -z "$SUBDIRS" ]; then
     echo "Brak katalogów instalacyjnych w bieżącym folderze."
