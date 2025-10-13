@@ -17,5 +17,5 @@ Openbox script collection for Debian 13 at ASUS X553M
 ## install
 * install git: `sudo apt install git`
 * download this project: `git clone https://github.com/epiornis/debian-openbox`
-* cd debian-openbox
-* sudo bash ./install.sh
+* `cd debian-openbox`
+* `sudo bash ./install.sh`
