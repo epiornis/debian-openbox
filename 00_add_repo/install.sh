@@ -25,6 +25,5 @@ for l in $deb_lines_nonfree; do
 done
 )
 
-
 # Update and install packages
 apt-get update  
