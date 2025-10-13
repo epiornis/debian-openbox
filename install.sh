@@ -54,7 +54,7 @@ for DIR in $SUBDIRS; do
 
     echo
     read -p "Kontynuować do następnego kroku? (t/N): " -n 1 -r
-    echo
+
     if [[ ! $REPLY =~ ^[TtYy]$ ]]; then
         echo "Przerwano instalację na etapie ${DIR}."
         exit 0
