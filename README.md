@@ -2,7 +2,7 @@
 Openbox script collection for Debian 13 at ASUS X553M
 
 ## hardware
-### ASUS X553MA
+#### ASUS X553MA
 - CPU: Intel Celeron N2840 64Bit
 - GPU: Intel Atom Processor Z3700 Series
 - RAM: 8 GB
