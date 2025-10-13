@@ -1,11 +1,15 @@
 #!/bin/bash
 #
+# Author: epiornis
+# Created: 13.10.2025
+# Modified: 13.10.2025
 # Główny instalator środowiska Openbox dla laptopa X553M
-# Autor: [epiornis]
+#
 # Działa na strukturze katalogów:
 # 00_repositories/
 # 01_firmware/
 # 02_openbox/
+# itd.
 #
 
 set -e  # zatrzymaj przy błędzie
