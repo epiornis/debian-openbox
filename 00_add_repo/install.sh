@@ -1,6 +1,6 @@
 #!/bin/bash
 #
-# copy from: https://github.com/leomarcov/debian-openbox/blob/master/00_config_add-contrib-nonfree/install.sh
+# source: https://github.com/leomarcov/debian-openbox/blob/master/00_config_add-contrib-nonfree/install.sh
 #
 # ACTION: Add Debian repositories contrib and non-free
 # INFO: Contrib and non-free repositories are not enabled by default in Debian install
