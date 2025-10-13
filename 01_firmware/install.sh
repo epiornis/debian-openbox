@@ -1,10 +1,11 @@
 #!/bin/bash
 #
+# -------------------------------------------------------------------------------
 # Author: epiornis
 # Created: 13.10.2025
 # Modified: 13.10.2025
 # Info: instalacja sterowników dla ASUS X553M
-#
+# -------------------------------------------------------------------------------
 
 set -e  # zatrzymuje skrypt w przypadku błędu (z wyjątkiem bloków || {...})
 
